@@ -3,6 +3,7 @@ import sqlite3
 import datetime
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
+from config_secret import TOKEN, ADMIN_USER_IDS
 
 # Configuración del logging
 logging.basicConfig(
@@ -10,10 +11,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+
 # --- CONFIGURACIÓN ---
-TOKEN = "7766426180:AAFMUAuLbNhI9gPvW3QphXmxISklrR4R_uE" 
-ADMIN_USER_IDS = [1470695759, 1234567890]  # <--- ¡IMPORTANTE: CAMBIA ESTO!
-# ADMIN_USER_ID = 1470695759  # <--- ¡IMPORTANTE: CAMBIA ESTO!
+TOKEN = "TU_TOKEN_AQUI" # Reemplazar por un texto genérico o dejarlo vacío
+ADMIN_USER_IDS = [00000000, 11111111] 
+# ---------------------
 
 # --- Constantes para validación ---
 VALID_CAJAS = ['cfg', 'sc', 'trd']

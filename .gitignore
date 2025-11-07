@@ -1,0 +1,13 @@
+# Archivos de la Base de Datos
+contabilidad.db
+
+# Archivos de Configuración Secreta
+config_secret.py
+.env
+
+# Entorno Virtual
+venv/
+
+# Archivos de Python generados automáticamente
+__pycache__/
+*.pyc
