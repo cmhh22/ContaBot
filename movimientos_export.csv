@@ -1,0 +1,40 @@
+id,fecha,tipo,monto,moneda,caja,user_id,descripcion
+39,2025-11-08 16:01:26.261975,traspaso,0.0,usd,ALMACEN,1470695759,CONSIGNACION: 5 x ZAPATO01. Vendedor: MARIA. Deuda generada: 150.00 USD. Nota: 'Consignacion 2'
+38,2025-11-08 16:00:27.213689,traspaso,0.0,usd,ALMACEN,1470695759,CONSIGNACION: 5 x ZAPATO01. Vendedor: MARIA. Deuda generada: 150.00 USD. Nota: 'Consignacion inicial'
+37,2025-11-08 15:57:37.733991,traspaso,0.0,usd,ALMACEN,1470695759,CONSIGNACION: 5 x ZAPATO01. Vendedor: MARIA. Deuda generada: 150.00 USD. Nota: 'Consignacion inicial'
+36,2025-11-08 12:54:45.301164,ingreso,50.0,usd,cfg,1470695759,PAGO de Vendedor: MARIA
+35,2025-11-08 12:45:02.910103,traspaso,0.0,usd,ALMACEN,1470695759,CONSIGNACION: 5 x ZAPATO01. Vendedor: MARIA. Deuda generada: 150.00 USD. Nota: 'Consignacion inicial'
+34,2025-11-08 12:44:13.154057,gasto,0.0,usd,cfg,1470695759,COMPRA 20 de ZAPATO01. Proveedor: PROV_A. Costo Total: 300.00 USD. 'Lote de zapatos'
+33,2025-11-08 12:39:00.513190,gasto,200.0,cup,cfg,1470695759,PAGO a Proveedor: PROV1 - Motivo: pago parcial
+32,2025-11-08 12:37:44.996241,gasto,0.0,cup,cfg,1470695759,COMPRA 50 de AZUCAR. Proveedor: PROV1. Costo Total: 500.00 CUP. Lote 10
+31,2025-11-08 12:01:18.526099,ingreso,20.0,usd,sc,1470695759,VENTA: 1 x ITEM01 | Precio unitario: 20.00 USD | Costo Total: 10.00 USD | Nota: 'Venta a cliente X'
+30,2025-11-08 12:00:52.946911,gasto,100.0,usd,cfg,1470695759,COMPRA: 10 x ITEM01 | Costo unitario: 10.0000 USD | Nota: 'Compra lote'
+29,2025-11-07 15:55:04.460905,ingreso,150.0,cup,sc,1470695759,VENTA: 2 x TSHIRT01 | Precio unitario: 75.00 CUP | Costo Total: 100.00 CUP | Nota: 'Vendido por Juan'
+28,2025-11-07 15:54:18.437374,gasto,500.0,cup,sc,1470695759,COMPRA: 10 x TSHIRT01 | Costo unitario: 50.0000 CUP | Nota: 'Compra 1'
+27,2025-11-07 15:49:39.231670,gasto,4000.0,usd,trd,1470695759,COMPRA: 10 x SPLIT01 | Costo unitario: 400.0000 USD | Nota: amazon
+26,2025-11-07 15:47:02.327527,gasto,20000.0,cup,sc,1470695759,COMPRA: 50 x SHIRT01 | Costo unitario: 400.0000 CUP | Nota: 'Nueva compra urgente'
+25,2025-11-07 15:37:27.498269,gasto,200.0,usd,cfg,1470695759,COMPRA: 10 x BOOK01 | Costo unitario: 20.0000 USD | Nota: 'Libros de texto'
+24,2025-11-07 15:33:00.676573,gasto,20000.0,cup,sc,1470695759,COMPRA: 50 x SHIRT01 | Costo unitario: 400.0000 CUP | Nota: 'Nueva compra urgente'
+23,2025-11-07 15:31:38.772028,gasto,500.0,usd,cfg,1470695759,COMPRA: 100 x SHIRT01 | Costo unitario: 5.0000 USD | Nota: lote inicial
+22,2025-11-07 15:11:48.963710,gasto,150.0,usd,trd,1470695759,PAGO a Proveedor: Xxx - Motivo: pago shein
+21,2025-11-07 15:09:53.395723,ingreso,5000.0,cup-t,trd,1470695759,PAGO de Vendedor: Pedro
+19,2025-11-07 15:07:11.916591,gasto,100.0,usd,trd,1470695759,"CAMBIO AUTOMÁTICO: 100.00 USD a 41,000.00 CUP (@ 1 USD = 410.0000 CUP)"
+20,2025-11-07 15:07:11.916591,ingreso,41000.0,cup,cfg,1470695759,"CAMBIO AUTOMÁTICO: 100.00 USD a 41,000.00 CUP (@ 1 USD = 410.0000 CUP)"
+17,2025-11-07 14:58:48.329674,gasto,100.0,usd,trd,1470695759,CAMBIO: 100.00 USD (TRD) a 100.00 USD (TRD) (@ 1 USD = 1.0000 USD)
+18,2025-11-07 14:58:48.329674,ingreso,100.0,usd,trd,1470695759,CAMBIO: 100.00 USD (TRD) a 100.00 USD (TRD) (@ 1 USD = 1.0000 USD)
+15,2025-11-07 14:57:51.188900,gasto,100.0,usd,cfg,1470695759,CAMBIO: 100.00 USD (CFG) a 6000.00 CUP (SC) (@ 1 USD = 60.0000 CUP)
+16,2025-11-07 14:57:51.188900,ingreso,6000.0,cup,sc,1470695759,CAMBIO: 100.00 USD (CFG) a 6000.00 CUP (SC) (@ 1 USD = 60.0000 CUP)
+14,2025-11-07 14:52:10.804455,ingreso,15000.0,cup,trd,1470695759,Ingreso
+13,2025-11-07 14:51:57.314315,ingreso,25000.0,cup-t,trd,1470695759,Ingreso
+12,2025-11-07 14:51:36.132939,ingreso,500.0,usd,trd,1470695759,Ingreso
+10,2025-11-07 14:49:14.178961,gasto,100.0,usd,cfg,1470695759,CAMBIO: 100.00 USD a 41000.00 CUP (@ 1 USD = 410.0000 CUP)
+11,2025-11-07 14:49:14.178961,ingreso,41000.0,cup,sc,1470695759,CAMBIO: 100.00 USD a 41000.00 CUP (@ 1 USD = 410.0000 CUP)
+9,2025-11-07 14:27:05.529212,gasto,5000.0,cup-t,cfg,1470695759,pago
+8,2025-11-07 14:26:00.825719,gasto,2700.0,cup,sc,1470695759,merienda
+7,2025-11-07 14:25:37.936980,gasto,300.0,cup,sc,1470695759,merienda
+6,2025-11-07 14:25:18.819456,gasto,50.0,usd,cfg,1470695759,pago a proveedor x
+5,2025-11-07 14:24:59.188582,ingreso,15000.0,cup-t,cfg,1470695759,Ingreso
+4,2025-11-07 14:24:40.335174,ingreso,20000.0,cup,sc,1470695759,Ingreso
+3,2025-11-07 14:24:24.322556,ingreso,100.0,usd,cfg,1470695759,Ingreso
+2,2025-11-07 14:05:01.404500,ingreso,5000.0,cup,sc,1470695759,
+1,2025-11-07 14:04:39.330785,ingreso,100.0,usd,cfg,1470695759,
